@@ -1,0 +1,76 @@
+/* App.css */
+body {
+  background-color: #f5f5dc; /* Light brown background color */
+}
+
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-family: "Arial", sans-serif;
+  margin-bottom: 20px;
+  color: #4e4e4e; /* Dark grey font color */
+}
+
+label {
+  font-size: 1.3rem;
+  margin-right: 10px;
+  color: #5a4545; /* Dark grey font color */
+}
+
+select {
+  font-size: 1rem;
+  padding: 5px 10px;
+  color: #685b5b; /* Dark grey font color */
+  background-color: #d4d2d2; /* White background */
+  border: 1px solid #ccc; /* Light grey border */
+  border-radius: 5px; 
+}
+
+.SudokuBoard {
+  margin-top: 30px;
+  display: inline-block;
+  border: 2px solid #4e4e4e; /* Dark grey border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px; /* Add some padding */
+  margin-left: 35%; 
+  background-color: #8b5a2b;
+}
+
+.SudokuRow {
+  display: flex;
+}
+
+.SudokuCell {
+  width: 40px;
+  height: 40px;
+  font-size: 1.2rem;
+  border: 1px solid #ccc; /* Light grey border */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.SudokuCell input {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: inherit;
+  border: none;
+  outline: none;
+}
+
+.SudokuCell input:focus {
+  border: 1px solid #007bff;
+}
+
+.timer {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1.2rem;
+  color: red; /* Red color for timer */
+}

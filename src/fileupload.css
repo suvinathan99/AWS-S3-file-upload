@@ -1,0 +1,56 @@
+.upload-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.upload-container h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.upload-container input[type="file"] {
+  margin-bottom: 10px;
+}
+
+.upload-container button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.upload-container button:hover {
+  background-color: #0056b3;
+}
+
+.upload-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.upload-container li {
+  margin-bottom: 10px;
+}
+
+.upload-container span {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.upload-container button.view {
+  background-color: #28a745;
+}
+
+.upload-container button.close {
+  background-color: #dc3545;
+}
+
+
+
+
+
